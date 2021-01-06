@@ -1,12 +1,3 @@
-{
-  box-sizing:border-box;
-}
-
-::-moz-selection {
-  background: purple;
-  color: #FFF;
-}
-
 ::selection {
   background:purple;
   color: #FFF;
@@ -19,18 +10,17 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 30px;
   line-height: 1.5;
-  color:white;
-  background: whitesmoke;
+  color:whbalckite;
+  position:relative;
+  background-image: url('https://img.wallpapersafari.com/desktop/1280/1024/11/41/T7ZjNl.jpg');
 }
 
 .main-header {
-
-  background:lightgray;
   box-shadow: 0 1px 6px rgba(0, 0, 0, .1);
 }
 
 .mh-logo {
-  margin: -10px -200px -10px;
+  margin: -10px -152px -10px;
 }
 
 .main-nav a {
@@ -46,47 +36,18 @@ body {
 .main-nav ul {
 
 margin: 10px 200px 10px;
-
-  
 }
-.main-nav-list {
-margin-right: -200px;
-}
-
-.right {
-margin-right:-10px;
-  margin-top: 4em;
-  text-align: right;
-}
-
-.right a {
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  color: #F34A4E;
-  border-bottom: 1px solid #F34A4E;
-  transition: all .275s;
-}
-
-.center a:hover,
-.center a:focus {
-  opacity: 0.8;
-  padding-bottom: 2px;
-  border-bottom-color: rgba(243, 74, 95, .5);
-}
-
 img {
   max-width: 100%;
   height: auto;
 }
+.foto {min-width:100%;}
+  
 
 .container {
   width: 960px;
   max-width: 100%;
-  padding: 20px;
-  margin: 0 auto;
+  margin: auto;
 }
 .main-header .container {
   display: flex;
@@ -108,38 +69,13 @@ img {
   display: inline-block;
   padding: .5em 1.5em;
 }
-.ballina img {
-  position: relative;
-  display:inline-block;
-}
-.section-two{
-display: flex;
-justify-content: space-evenly;
-text-align: center;
-background-color: white;
-color:red;
-margin-top: 2%;
-}
-.section-two .st-item{
-  align-items:flex-start;
-  width: 30%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-.ft-items-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-
-}
 
 .cc-flex-container {
+  font-family: 'Dancing Script', cursive;
   top: 30vw;
   position: absolute;
   display: flex;
    margin-top: 1%;
-   padding: 2%;
    width: 100%;
  flex-wrap: nowrap; 
  flex-direction: column;
@@ -147,22 +83,30 @@ margin-top: 2%;
   justify-content: center;
  }
  .cc-flext-item{
-     padding: 5px;
-     width: 100%;
-     display: block;
-     height: auto;
-     text-align: center;
-     margin-top: 10px;
-     background-color: #343534;
-     color: silver;
+  font-size: 3vw;
+  color:whitesmoke;
  }
+ .section-one{
+  text-align: center; 
+  margin-top: 2%; 
+  margin-bottom: 2%;
+ }
+ .h1-m{
+   font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+   text-align: center;
+ }
+.slideshow-bg{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 20%;
+  max-width: 70%;
   position: relative;
   margin: auto;
-  min-width: 20%;
+  min-width: 70%;
   height:auto;
   
 }
@@ -201,18 +145,19 @@ margin-top: 2%;
 
 /* Caption text */
 .text {
-  color: black;
-  font-size: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 10px;
   width: 100%;
   text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color:black;
+  color:grey;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -234,7 +179,7 @@ margin-top: 2%;
 .active, .dot:hover {
   background-color: #717171;
 }
-.
+
 
 /* Fading animation */
 .fade {
@@ -258,16 +203,30 @@ margin-top: 2%;
   .main-header .container {
       justify-content: space-between;
   }
-  .ballina .cc h1 {
-      font-size: 2vw;
-  }
-  .ballina .ballina-text h3 {
-      font-size: 1vw;
-  }
-  .ballina .ballina-text h5 {
-      font-size: 0.5vw;
-  }
 }
+.h1-menu{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+
+}
+.h3-p {
+  text-transform: uppercase;
+  font-family: 'Antic', sans-serif;
+  color: #bc2127;
+  text-align:center;
+  font-size: 30px;
+    margin: auto;
+    width: 15%;
+    border: 3px solid #bc2127;
+    padding: 10px;
+  }  
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border:transparent; 
+}
+
 .fa {
   padding: 15px;
   font-size: 25px;
